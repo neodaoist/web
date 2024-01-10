@@ -235,7 +235,7 @@ When verifying a contract with Basescan on testnet (Sepolia), an API key is not 
 Grab the deployed address and run:
 
 ```bash
-forge verify-contract <DEPLOYED_ADDRESS> ./src/NFT.sol:NFT --chain 84532 --watch
+forge verify-contract <DEPLOYED_ADDRESS> ./src/NFT.sol:NFT --chain 84532 --watch --verifier etherscan
 ```
 
 You should see an output similar to:
